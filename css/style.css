@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 2000px;
+    background-color: #3DE07E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navicon {
+    height: 2vh;
+    align-self: flex-start;
+    margin: 1rem;
+}
+
+h1 {
+    margin: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+.ninjahead {
+    height: 15vh;
+}
+
+/* main block styling */
+
+body {
+    background-color: black;
+}
+
+body main {
+    max-width: 1000px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: auto;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2rem;
+    background-color: black;
+}
+
+
+.smallPicture {
+    grid-column: auto / span 2;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.smallPictureImg {
+    width: 100%;
+}
+
+.smallPictureHeader {
+    padding: 1rem;
+}
+
+.smallPictureText {
+    padding: 1rem;
+}
+
+.smallPictureButton {
+    font-family: ;
+    width: 10rem;
+    background-color: tomato;
+    border-radius: 6px;
+    color: white;
+    margin: 1rem;
+    padding: 0.4em;
+}
+
+
+.bigPicture {
+    grid-column: auto / span 3;
+    background-color: white;
+    margin: 3rem;
+}
+
+.bigPictureImg {
+    width: 100%;
+}
+
+.bigPictureHeader {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.bigPictureText {
+    padding-bottom: 2rem;
+}
+
+.bigPictureButton {
+    margin: 1rem;
+    width: 12rem;
+    background-color: tomato;
+    border-radius: 6px;
+    color: white;
+    padding: 0.6em;
+}
+
+footer {
+    max-width: 2000px;
+    height: 20px;
+    background-color: grey;
+}
