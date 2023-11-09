@@ -38,7 +38,7 @@ body {
     background-color: black;
 }
 
-body main {
+.pictures {
     max-width: 1000px;
     font-family: 'Fira Sans', sans-serif;
     margin: auto;
@@ -49,6 +49,10 @@ body main {
     background-color: black;
 }
 
+main h2 {
+    color: white;
+    grid-column: auto / span 6;
+}
 
 .smallPicture {
     grid-column: auto / span 2;
@@ -80,13 +84,13 @@ body main {
     padding: 0.4em;
     border: none;
     font-size: smaller;
+    cursor: pointer;
 }
 
 
 .bigPicture {
     grid-column: auto / span 3;
     background-color: white;
-    margin: 3rem;
 }
 
 .bigPictureImg {
@@ -111,6 +115,59 @@ body main {
     padding: 0.6em;
     border: none;
     font-size: smaller;
+    cursor: pointer;
+}
+
+.varukorg {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 6rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: black;
+    color: white;
+}
+
+.vara {
+    grid-column: auto / span 3;
+}
+
+.antal {
+    grid-column: auto / span 2;
+}
+
+.pris {
+    grid-column: auto / span 1;
+}
+
+.redBgd {
+    background-color: hsla(0, 83%, 57%, 0.2);
+}
+
+.varukorg>article>p {
+    padding: 0.5em;
+}
+
+.varukorg>article>h3 {
+    padding: 0.5em;
+}
+
+.gimmieButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gimmieButton {
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+    width: 17rem;
+    background-color: #E83F57;
+    border-radius: 4px;
+    color: white;
+    padding: 0.6em;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 footer {
