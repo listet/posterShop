@@ -22,14 +22,14 @@
 }
 
 h1 {
-    margin: 5vh;
+    margin: 15vh;
     font-family: 'Roboto', sans-serif;
     font-size: 300%;
     text-align: center;
 }
 
 .ninjahead {
-    height: 15vh;
+    height: 20vh;
 }
 
 /* main block styling */
@@ -72,13 +72,14 @@ body main {
 }
 
 .smallPictureButton {
-    font-family: ;
-    width: 10rem;
-    background-color: tomato;
-    border-radius: 6px;
+    width: 8rem;
+    background-color: #E83F57;
+    border-radius: 4px;
     color: white;
     margin: 1rem;
     padding: 0.4em;
+    border: none;
+    font-size: smaller;
 }
 
 
@@ -102,16 +103,34 @@ body main {
 }
 
 .bigPictureButton {
-    margin: 1rem;
-    width: 12rem;
-    background-color: tomato;
-    border-radius: 6px;
+    margin: 0.5rem;
+    width: 9rem;
+    background-color: #E83F57;
+    border-radius: 4px;
     color: white;
     padding: 0.6em;
+    border: none;
+    font-size: smaller;
 }
 
 footer {
     max-width: 2000px;
-    height: 20px;
-    background-color: grey;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer article {
+    margin: 3rem;
+}
+
+footer article h3 {
+    padding-bottom: 0.4em;
+}
+
+footer article ul {
+    list-style: none;
+    font-size: small;
 }
