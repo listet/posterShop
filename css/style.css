@@ -49,7 +49,7 @@ body {
     background-color: black;
 }
 
-main h2 {
+.varorIKorg {
     color: white;
     grid-column: auto / span 6;
 }
@@ -73,6 +73,7 @@ main h2 {
 
 .smallPictureText {
     padding: 1rem;
+    font-weight: lighter;
 }
 
 .smallPictureButton {
@@ -91,6 +92,7 @@ main h2 {
 .bigPicture {
     grid-column: auto / span 3;
     background-color: white;
+    margin-bottom: 6rem;
 }
 
 .bigPictureImg {
@@ -120,7 +122,9 @@ main h2 {
 
 .varukorg {
     font-family: 'Fira Sans', sans-serif;
-    margin: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 8rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: black;
@@ -158,7 +162,7 @@ main h2 {
 
 .gimmieButton {
     margin-right: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     width: 17rem;
     background-color: #E83F57;
     border-radius: 4px;
